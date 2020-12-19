@@ -3,6 +3,10 @@
 body {
     font-family: 'Questrial', sans-serif;
     font-size: 15px;
+    /* height: 100vh; */
+    width: 100%!important;
+    /* margin: 0; */
+
     /* background-color: lightblue; */
 }
 
@@ -196,6 +200,7 @@ button:visited {
    color: #000;
    line-height: 1.6;
    letter-spacing: .05em;
+   text-align: center;
 } 
 
 /*  ABOUT ENDS HERE */
@@ -206,7 +211,8 @@ button:visited {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    /* flex-flow: column wrap;
+    width:100% !important; */
 
     /* align-content: space-evenly; */
     /* border: 5px solid rgb(61, 61, 167); */
